@@ -29,11 +29,11 @@
 • [Author](#author)
 • [License](#user-content-license)
 
-## About
+### About
 
 Kafka Fundamentals is a Maven project that implements the basics of the Kafka Client APIs. Consumer and Producer services are separated into individual models, like the Kafka layer.
 
-## How it works
+### How it works
 
 This is a Maven project that implements Kafka Clients APIs. You must to have both of Kafka and Zookeeper running in your computer.
 
@@ -49,7 +49,7 @@ Before you begin, you will need to have the following tools installed on your ma
 [Git] (https://git-scm.com), [Java 11+] (https://www.java.com), [Kafka] (https://kafka.apache.org).
 As a suggestion, use a modern editor like [IntelliJ] (https://www.jetbrains.com/idea) or [VSCode ] (https://code.visualstudio.com)
 
-#### Maven Dependencies
+### Maven Dependencies
 
 ```bash
 
@@ -86,7 +86,7 @@ For each consumer you can see it receiving the messages from the Kafka topic.
 
 Try run two ot three instances of service-fraud-detector. This way you will be able to see the kafka broker spliting the messages between the consumers.
 
-## Author
+### Author
 
 <a href="https://github.com/jh-ecomp?tab=repositories">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/21336271?s=400&u=4b4ff916cafb59709adaa958f3c0f46bed35ae62&v=4" width="100px;" alt="João Henrique"/>
@@ -95,7 +95,7 @@ Try run two ot three instances of service-fraud-detector. This way you will be a
  <br />
 ---
 
-## License
+### License
 
 This project is under the license [MIT](./LICENSE.txt).
 
