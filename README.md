@@ -19,21 +19,21 @@
 </p>
 
 #### Status: Done
-### Summary
-• [About](#about)
-• [How it works](#how-it-works)
-• [Before Installation](#before-installation)
-• [Maven Dependencies](#maven-dependencies)
-• [Installation](#installation)
-• [Using](#using)
-• [Author](#author)
-• [License](#user-content-license)
+## Summary
+- [About](#about)
+- [How it works](#how-it-works)
+- [Before Installation](#before-installation)
+- [Maven Dependencies](#maven-dependencies)
+- [Installation](#installation)
+- [Using](#using)
+- [Author](#author)
+- [License](#user-content-license)
 
-### About
+## About
 
 Kafka Fundamentals is a Maven project that implements the basics of the Kafka Client APIs. Consumer and Producer services are separated into individual models, like the Kafka layer.
 
-### How it works
+## How it works
 
 This is a Maven project that implements Kafka Clients APIs. You must to have both of Kafka and Zookeeper running in your computer.
 
@@ -43,13 +43,13 @@ The producer service module will send messages to two topics at the same time, t
 
 You will see the consumers receiving the messages, each from the topic they are subscribed to.
 
-### Before Installation
+## Before Installation
 
 Before you begin, you will need to have the following tools installed on your machine:
 [Git] (https://git-scm.com), [Java 11+] (https://www.java.com), [Kafka] (https://kafka.apache.org).
 As a suggestion, use a modern editor like [IntelliJ] (https://www.jetbrains.com/idea) or [VSCode ] (https://code.visualstudio.com)
 
-### Maven Dependencies
+## Maven Dependencies
 
 ```bash
 
@@ -59,7 +59,7 @@ As a suggestion, use a modern editor like [IntelliJ] (https://www.jetbrains.com/
 
 ```
 
-### Installation
+## Installation
 
 ```bash
 
@@ -70,7 +70,7 @@ $ git clone git@github.com:jh-ecomp/kafka-fundamentals-with-java.git
 $ cd kafka-fundamentals-with-java/ecommerce
 ```
 
-### Using
+## Using
 ##### This project contains the basic usage of Kafka Clients APIs
 
 Make sure you have Kafka and Zookeeper running in your computer.
@@ -86,16 +86,17 @@ For each consumer you can see it receiving the messages from the Kafka topic.
 
 Try run two ot three instances of service-fraud-detector. This way you will be able to see the kafka broker spliting the messages between the consumers.
 
-### Author
+## Author
+
 
 <a href="https://github.com/jh-ecomp?tab=repositories">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/21336271?s=400&u=4b4ff916cafb59709adaa958f3c0f46bed35ae62&v=4" width="100px;" alt="João Henrique"/>
  <br />
  <sub><b>João Henrique</b></sub></a> <a href="https://github.com/jh-ecomp?tab=repositories" title="João Henrique"></a>
  <br />
----
 
-### License
+
+## License
 
 This project is under the license [MIT](./LICENSE.txt).
 
