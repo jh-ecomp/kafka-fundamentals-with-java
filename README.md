@@ -18,17 +18,16 @@
   </a>
 </p>
 
-## Status: Done
-
-<p align="left">
- • <a href="#about">About</a> 
- • <a href="#how-it-works">How it works</a>
- • <a href="#dependencies">Dependencies</a>
- • <a href="#installation">Installation</a>
- • <a href="#using">Using</a>
- • <a href="#author">Author</a>
- • <a href="#user-content-license">License</a>
-</p>
+#### Status: Done
+### Summary
+• [About](#about)
+• [How it works](#how-it-works)
+• [Before Installation](#before-installation)
+• [Maven Dependencies](#maven-dependencies)
+• [Installation](#installation)
+• [Using](#using)
+• [Author](#author)
+• [License](#user-content-license)
 
 ## About
 
@@ -44,7 +43,7 @@ The producer service module will send messages to two topics at the same time, t
 
 You will see the consumers receiving the messages, each from the topic they are subscribed to.
 
-### Pre-requisites
+### Before Installation
 
 Before you begin, you will need to have the following tools installed on your machine:
 [Git] (https://git-scm.com), [Java 11+] (https://www.java.com), [Kafka] (https://kafka.apache.org).
